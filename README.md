@@ -32,3 +32,11 @@ Hi, I’m **Arth Gameti**, a passionate **Data Scientist** with strong interest 
 * **Description:** Predicts whether an underwater object detected by sonar is a mine or a rock.
 
 ---
+
+### 2️⃣ Diabetes Prediction
+
+* **Algorithm:** Support Vector Machine (SVM)
+* **Type:** Binary Classification
+* **Description:** Predicts whether a patient is diabetic or non-diabetic based on medical parameters.
+
+---
