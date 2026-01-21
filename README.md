@@ -40,3 +40,11 @@ Hi, I’m **Arth Gameti**, a passionate **Data Scientist** with strong interest 
 * **Description:** Predicts whether a patient is diabetic or non-diabetic based on medical parameters.
 
 ---
+
+### 3️⃣ House Price Prediction
+
+* **Algorithm:** XGBoost Regressor
+* **Type:** Regression
+* **Description:** Predicts house prices using advanced gradient boosting techniques.
+
+---
