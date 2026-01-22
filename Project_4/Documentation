@@ -1,0 +1,149 @@
+Fake News Predictor – Data Science Project Documentation
+
+1. Project Overview
+
+Project Name: Fake News Predictor  
+Domain: Data Science  
+Algorithm Used: Logistic Regression
+
+The Fake News Predictor project is a supervised machine learning classification task based on Natural Language Processing (NLP). The main objective of this project is to predict whether a given news article is Fake or Real using text-based features.
+
+This project demonstrates how text data can be cleaned, transformed into numerical form, and used to train a machine learning model for classification.
+
+---
+
+2. Problem Statement
+
+With the rapid spread of information through digital media, fake news has become a serious problem. Manually verifying news is time-consuming and unreliable. The goal of this project is to build an automated system that can classify news articles as:
+
+* Fake News – False or misleading information
+* Real News – Genuine and trustworthy information
+
+---
+
+3. Dataset Description
+
+* The dataset contains news articles along with their labels.
+* Each row represents a single news article.
+* The dataset includes text-based features such as news title or content.
+
+ Target Variable:
+
+* `0` → Fake News
+* `1` → Real News
+
+ Key Characteristics:
+
+* Text-based dataset
+* Binary classification problem
+* Suitable for NLP-based machine learning models
+
+---
+
+4. Tools and Technologies Used
+
+* Programming Language: Python
+* Libraries:
+
+  * NumPy – Numerical computations
+  * Pandas – Data handling and analysis
+  * re – Text cleaning using regular expressions
+  * NLTK – Stopwords removal and stemming
+  * Scikit-learn – Feature extraction, model training, and evaluation
+
+---
+
+5. Methodology
+
+The project follows these steps:
+
+ 5.1 Data Loading
+
+* The dataset is loaded using Pandas.
+* Initial exploration is performed to understand dataset size and label distribution.
+
+ 5.2 Text Preprocessing
+
+Text data is cleaned and prepared using the following techniques:
+
+* Removing non-alphabetic characters using `re`
+* Converting text to lowercase
+* Removing URLs and extra spaces
+* Removing stopwords using NLTK
+* Applying **Porter Stemming** to reduce words to their root form
+
+ 5.3 Feature Extraction
+
+* TF-IDF Vectorizer is used to convert text into numerical features.
+* This helps the model understand the importance of words across documents.
+
+ 5.4 Data Splitting
+
+* The dataset is split into training and testing sets using `train_test_split`.
+
+ 5.5 Model Selection
+
+* Logistic Regression is chosen because:
+
+  * It performs well for binary text classification
+  * It is simple and computationally efficient
+  * It works effectively with TF-IDF features
+
+ 5.6 Model Training
+
+* The logistic regression model is trained using the training dataset.
+* The model learns patterns that distinguish fake news from real news.
+
+ 5.7 Model Testing
+
+* The trained model is evaluated on unseen test data.
+* Predictions are generated for performance analysis.
+
+---
+
+6. Model Evaluation
+
+The performance of the model is evaluated using:
+
+* Classification Report – Precision, Recall, F1-score
+* Confusion Matrix – Visual representation of predictions
+* Accuracy Score – Overall model correctness
+
+Balanced evaluation metrics indicate a reliable classifier.
+
+---
+
+7. Results and Observations
+
+* The model effectively identifies fake and real news articles.
+* TF-IDF features significantly improve text classification accuracy.
+* Logistic regression provides fast and reliable predictions.
+
+---
+
+8. Conclusion
+
+The Fake News Predictor project successfully applies NLP techniques and logistic regression to detect fake news. This project highlights the importance of text preprocessing, feature extraction, and proper evaluation in text-based machine learning systems.
+
+---
+
+9. Future Enhancements
+
+* Use advanced NLP models like Naive Bayes, SVM, or LSTM
+* Apply n-grams for better context understanding
+* Deploy the model as a web application
+* Use deep learning-based transformers (BERT)
+
+---
+
+10. References
+
+* NLTK Documentation
+* Scikit-learn Documentation
+* Fake News Detection Datasets (Kaggle)
+---
+CSV file not uploded because of big size you can download that file from kaggle or DM.
+---
+
+Author: Arth Gameti  
+Project Type: Academic / Learning Project
