@@ -48,3 +48,11 @@ Hi, I’m **Arth Gameti**, a passionate **Data Scientist** with strong interest 
 * **Description:** Predicts house prices using advanced gradient boosting techniques.
 
 ---
+
+### 4️⃣ Fake News Predictor
+
+* **Algorithm:** Logistic Regression
+* **Type:** NLP-based Binary Classification
+* **Description:** Classifies news articles as fake or real using text preprocessing and TF-IDF.
+
+---
