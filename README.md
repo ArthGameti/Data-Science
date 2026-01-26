@@ -56,3 +56,73 @@ Hi, I’m **Arth Gameti**, a passionate **Data Scientist** with strong interest 
 * **Description:** Classifies news articles as fake or real using text preprocessing and TF-IDF.
 
 ---
+
+### 5️⃣ Loan Prediction System
+
+* **Algorithm:** Support Vector Machine (SVM)
+* **Type:** Binary Classification
+* **Description:** Predicts loan approval or rejection and handles class imbalance using balanced class weights.
+
+---
+
+### 6️⃣ Wine Quality Checker
+
+* **Algorithm:** Random Forest Classifier
+* **Type:** Binary Classification
+* **Description:** Classifies wine quality as good or bad, includes EDA, visualization, and single-instance prediction.
+
+---
+
+### 7️⃣ Car Price Predictor
+
+* **Algorithms:** Linear Regression, Lasso Regression
+* **Type:** Regression
+* **Description:** Compares Linear and Lasso regression models and selects Lasso for better performance on small data.
+
+---
+
+### 8️⃣ Heart Disease Prediction
+
+* **Algorithm:** Logistic Regression
+* **Type:** Binary Classification
+* **Description:** Predicts the presence of heart disease using clinical and medical features.
+
+---
+
+### 9️⃣ Customer Segmentation
+
+* **Algorithm:** K-Means Clustering
+* **Type:** Unsupervised Learning
+* **Description:** Segments customers into distinct groups based on income and spending behavior.
+
+---
+
+### 🔟 Movie Recommendation System
+
+* **Technique:** Content-Based Filtering
+* **Tools:** TF-IDF, Cosine Similarity
+* **Type:** Recommendation System / NLP
+* **Description:** Recommends movies based on content similarity using movie metadata.
+
+---
+
+## 🚀 Key Highlights
+
+* Covers **end-to-end Data Science workflow**
+* Includes **real-world datasets and domains**
+* Demonstrates **model comparison and problem-solving skills**
+* Strong foundation for **entry-level Data Scientist / ML roles**
+
+---
+
+## 📌 Future Plans
+
+* Deploy selected projects using Streamlit or Flask
+* Add hyperparameter tuning and model optimization
+* Create dashboards for data visualization
+
+---
+
+⭐ If you find this repository useful, feel free to star it!
+
+**Author:** Arth Gameti
