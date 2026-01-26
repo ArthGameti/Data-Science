@@ -1,0 +1,147 @@
+Car Price Predictor – Data Science Project Documentation
+
+1. Project Overview
+
+Project Name Car Price Predictor  
+Domain: Data Science / Machine Learning  
+Algorithms Used: Linear Regression, Lasso Regression
+
+The Car Price Predictor project is a supervised machine learning regression task. The objective of this project is to predict the price of a car based on various features such as brand, model, year, fuel type, and usage-related parameters.
+
+In this project, both Linear Regression and Lasso Regression models were trained and evaluated. After comparison, Lasso Regression was found to perform better and provide more accurate predictions.
+
+---
+
+2. Problem Statement
+
+Estimating the resale price of a car is difficult due to multiple influencing factors. Manual estimation often leads to incorrect pricing. The goal of this project is to build a machine learning model that can predict car prices based on historical data.
+
+This helps:
+
+* Buyers avoid overpaying
+* Sellers set fair prices
+* Businesses automate vehicle valuation
+
+---
+
+3. Dataset Description
+
+* The dataset contains information about used cars.
+* Each row represents one car record.
+* The dataset used is relatively small making model selection and regularization important.
+
+Common Features (Table Headers):
+
+* Car Name / Brand
+* Year
+* Selling Price
+* Present Price
+* Kilometers Driven
+* Fuel Type
+* Seller Type
+* Transmission Type
+* Number of Owners
+
+Target Variable:
+
+* Selling Price – Predicted car price
+
+---
+
+4. Tools and Technologies Used
+
+* Programming Language: Python
+* Libraries:
+
+  * NumPy – Numerical computations
+  * Pandas – Data handling and analysis
+  * Scikit-learn – Model building and evaluation
+  * Matplotlib / Seaborn (optional) – Visualization
+  * Metrics - R Squre - Accuracy
+
+---
+
+5. Methodology
+
+ 5.1 Data Loading
+
+* The dataset is loaded using Pandas.
+* Initial exploration is performed to understand data size and feature types.
+
+ 5.2 Data Preprocessing
+
+* Handled missing values (if any)
+* Encoded categorical variables into numerical format
+* Separated independent features and target variable
+* Split the dataset into **training** and **testing** sets
+
+ 5.3 Model Training
+
+Two regression models were trained:
+
+ Linear Regression
+
+* Used as a baseline regression model
+* Performs well on linear relationships but may overfit on small datasets
+
+ Lasso Regression
+
+* Adds L1 regularization to linear regression
+* Helps reduce overfitting
+* Performs feature selection by shrinking less important coefficients to zero
+
+---
+
+6. Model Comparison & Selection
+
+* Both models were evaluated using regression metrics
+* Lasso Regression showed better performance compared to Linear Regression
+* Lasso provided more stable and accurate predictions on the small dataset
+
+This demonstrates the importance of regularization when working with limited data.
+
+---
+
+7. Model Evaluation
+
+The models were evaluated using:
+
+* R² Score
+
+Lasso Regression achieved superior evaluation scores compared to Linear Regression.
+
+---
+
+8. Results and Observations
+
+* Lasso Regression outperformed Linear Regression
+* Regularization helped prevent overfitting
+* Model performed well despite limited dataset size
+* No separate single-instance prediction system was implemented in this project
+
+---
+
+9. Conclusion
+
+The Car Price Predictor project successfully compares Linear Regression and Lasso Regression models for car price prediction. The results highlight that Lasso Regression is more effective** for small datasets due to its regularization capability.
+
+---
+
+10. Future Enhancements
+
+* Build a single-instance prediction system
+* Use Ridge Regression and ElasticNet for comparison
+* Increase dataset size for improved generalization
+* Deploy the model as a web application
+
+---
+
+11. References
+
+* Used Car Price Prediction Datasets (Kaggle)
+* Scikit-learn Documentation
+
+---
+
+Author: Arth Gameti  
+Project Type: Academic / Learning Project
